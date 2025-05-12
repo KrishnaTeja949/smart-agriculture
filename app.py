@@ -7,12 +7,12 @@ import seaborn as sns
 import sys
 
 # Load models and encoders
-crop_model = joblib.load('models/crop_model.pkl')
-yield_model = joblib.load('models/yield_model.pkl')
-fert_model = joblib.load('models/fert_model.pkl')
-le_crop = joblib.load('models/le_crop.pkl')
-le_fert = joblib.load('models/le_fert.pkl')
-feature_names = joblib.load('models/feature_names.pkl')
+crop_model = joblib.load('crop_model.pkl')
+yield_model = joblib.load('yield_model.pkl')
+fert_model = joblib.load('fert_model.pkl')
+le_crop = joblib.load('le_crop.pkl')
+le_fert = joblib.load('le_fert.pkl')
+feature_names = joblib.load('feature_names.pkl')
 
 st.title("🌾 Smart Agriculture Assistant")
 
